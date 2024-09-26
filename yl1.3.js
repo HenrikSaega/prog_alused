@@ -5,9 +5,10 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question(`Sisest astme alus:`, astendaja => {
-  let astme_alus = 2;
-  let tulemus = astme_alus**astendaja;
-  console.log(tulemus);
-  rl.close();
+rl.question(`Sisest astme alus:`, astme_alus => {
+  rl.question("Sisesta astendaja: ", astendaja =>{
+    let tulemus = astme_alus**astendaja;
+    console.log(tulemus);
+    rl.close();
+  })
 });
