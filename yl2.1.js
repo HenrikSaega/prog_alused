@@ -20,6 +20,6 @@ const rl = readline.createInterface({
 });*/
 
 rl.question("Sisesta õhutemperatuur: ", ohutemperatuur =>{
-    let jaatumine = (ohutemperatuur > 4.0) ? console.log("Ei ole jäätumise ohtu."):console.log("On jäätumise oht.");
+    (ohutemperatuur > 4.0) ? console.log("Ei ole jäätumise ohtu."):console.log("On jäätumise oht.");
     rl.close();
 })
