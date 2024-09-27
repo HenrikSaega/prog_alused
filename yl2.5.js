@@ -12,18 +12,16 @@ rl.question("Sisestage kirja suurus(MB): ", kirjaSuurus =>{
             if(kirjaPealkiri == "")
             {
                 console.log("Kiri on spämm!");
-                rl.close();
             }
             else if(failiOlek == "jah" && kirjaSuurus > 1.0)
             {
                 console.log("Kiri on spämm");
-                rl.close();
             }
             else
             {
                 console.log("Kiri ei ole spämm!");
-                rl.close();
             } 
+            rl.close();
         } )
     });
 });
