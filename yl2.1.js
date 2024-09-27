@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("Siseta õhutemperatuur: ", ohutemperatuur => {
+/*rl.question("Siseta õhutemperatuur: ", ohutemperatuur => {
     if(ohutemperatuur > 4.0)
     {
         console.log("Ei ole jäätumise ohtu.");
@@ -17,4 +17,9 @@ rl.question("Siseta õhutemperatuur: ", ohutemperatuur => {
     } 
     rl.close();
 
-});
+});*/
+
+rl.question("Sisesta õhutemperatuur: ", ohutemperatuur =>{
+    let jaatumine = (ohutemperatuur > 4.0) ? console.log("Ei ole jäätumise ohtu."):console.log("On jäätumise oht.");
+    rl.close();
+})
