@@ -13,15 +13,14 @@ rl.question("Siseta vanus: ", vanus =>{
             let minPulss;
             let maxPulss;
             
-            if(sugu == "m"|| "M")
-            {
+            if(sugu == "m"|| sugu == "M"){
                 pulss = 220 - vanus;
             }
-            else if(sugu == "n"||"N")
-            {
+            else if(sugu == "n"|| sugu == "N"){
                 pulss = 206 - vanus * 0.88;
             } 
             console.log(pulss);
+            
             if(treeningtuup == 1)
                 {
                     maxPulss = pulss*0.7;
