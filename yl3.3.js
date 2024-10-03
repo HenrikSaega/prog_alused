@@ -10,7 +10,7 @@ rl.question("Sisesta täringute arv: ", TaringuteArv =>{
     let arv;
     for(let i = 0; i < TaringuteArv; i++)
     {
-        arv = Math.floor(Math.random() * 7);
+        arv = Math.ceil(Math.random() * 6);
 
         console.log(arv);
     } 
