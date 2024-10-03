@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question(`Sisest astme alus:`, astme_alus => {
+rl.question(`Sisesta astme alus:`, astme_alus => {
   rl.question("Sisesta astendaja: ", astendaja =>{
     let tulemus = astme_alus**astendaja;
     console.log(tulemus);
