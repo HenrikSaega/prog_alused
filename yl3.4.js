@@ -15,6 +15,6 @@ rl.question("Mitu pöialpoissi tahav õunu: ", PoisteArv =>{
         Õunad -= JagatudÕun;
 
     } 
-    console.log(`Lumivalgekesele jä ${Õunad} õuna.`);
+    console.log(`Lumivalgekesele jäi ${Õunad} õuna.`);
     rl.close();
 });
