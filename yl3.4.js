@@ -11,7 +11,7 @@ rl.question("Mitu pöialpoissi tahav õunu: ", PoisteArv =>{
     for(let i = 1; i <= PoisteArv; i++)
     {
         JagatudÕun = Math.ceil(Math.random() * 2);
-        console.log(JagatudÕun);
+        console.log(`${i}. pöialpoiss sai ${JagatudÕun} õuna.`);
         Õunad -= JagatudÕun;
 
     } 
