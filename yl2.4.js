@@ -33,7 +33,7 @@ rl.question("Kas soovite ise istekoha valida(ise/loos):", valimine =>{
         } 
         else
         {
-            console.log("Istekoht loositi. vahekäigukoht.")
+            console.log("Istekoht loositi. Vahekäigukoht.")
         } 
         rl.close();
     } 
